@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.body{
+    background-color: rgba(57, 132, 230, 0.212);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    color: rgba(22, 54, 94, 0.909);
+    background-color: rgba(57, 132, 230, 0.568);
+    text-align: center;
+}

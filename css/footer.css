@@ -1,0 +1,16 @@
+.footer {
+    margin: 20px 30px;
+    border: 1px solid rgba(57, 132, 230, 0.568);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fotter__linkadd {
+    color: rgba(22, 54, 94, 0.909);
+    text-decoration-line: teal;
+    
+}
+
+.fotter__linkadd:hover {
+    color: rgba(42, 134, 255, 0.568);
+}
