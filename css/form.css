@@ -11,7 +11,6 @@
     width: 100%;
     border-radius: 5px;
     background-color: #eef3f9;
-
 }
 
 .form__buttonConvert {
@@ -22,12 +21,11 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
-
 }
 
 .form__buttonConvert:hover {
     color: #99bcea;
-    background-color: rgba(33, 81, 139, 0.909) ;
+    background-color: rgba(33, 81, 139, 0.909);
 }
 
 .form__buttonConvert:active {
@@ -41,7 +39,7 @@
     background-color: rgba(22, 54, 94, 0.909);
     color: rgb(96, 156, 234);
     padding: 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-top: 10px;
 }
 
