@@ -1,5 +1,6 @@
 .container {
-    color: rgba(22, 54, 94, 0.909);;
+    color: rgba(22, 54, 94, 0.909);
+    background-color: rgba(168, 189, 216, 0.568);
     margin: 20px 40px;
     font-family: 'Roboto Mono', monospace;
     border: 2px double rgba(22, 54, 94, 0.909);
