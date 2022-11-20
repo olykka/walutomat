@@ -3,5 +3,5 @@
 ### Opis:
 Exercise hand with an exchange office
 
-Demo:
+### Demo:
 https://github.com/olykka/walutomat.git
