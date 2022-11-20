@@ -1,25 +1,25 @@
-let amountElement = document.querySelector(".js-amount")
+const amountElement = document.querySelector(".js-amount")
 amountElement.focus();
 
-let formElement = document.querySelector(".js-form")
-let currencyElement = document.querySelector(".js-currency")
-let resultElement = document.querySelector(".js-result")
+const formElement = document.querySelector(".js-form")
+const currencyElement = document.querySelector(".js-currency")
+const resultElement = document.querySelector(".js-result")
 
 
 document.querySelector(".js-buttonConvert")
 document.querySelector(".js-buttonConvert").click();
 
 
-let rateEUR = 4.70;
-let rateUSD = 4.74;
-let rateCHF = 4.76;
-let rateHUF = 1.15;
+const rateEUR = 4.70;
+const rateUSD = 4.74;
+const rateCHF = 4.76;
+const rateHUF = 1.15;
 
 formElement.addEventListener("submit", (Event) => {
     Event.preventDefault();
 
-    let amount = +amountElement.value;
-    let currency = currencyElement.value;
+    const amount = +amountElement.value;
+    const currency = currencyElement.value;
     let result;
 
     switch (currency) {
