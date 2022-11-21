@@ -8,12 +8,7 @@ html {
 .body{
     background-color: rgba(57, 132, 230, 0.212);
     font-family: 'Roboto Mono', monospace;
-    background-image: url("../images/backgroundmoney.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: repeat;
 }
 
-.header {
-    color: rgba(22, 54, 94, 0.909);
-    background-color: #e6eaef91;
-    text-align: center;
-}

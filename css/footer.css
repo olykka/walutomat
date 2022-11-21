@@ -1,15 +1,14 @@
 .footer {
     margin: 20px 30px;
-    border: 2px solid rgba(57, 132, 230, 0.568);
+    border: 2px solid rgb(4, 16, 30);
     border-radius: 5px;
     text-align: center;
 }
 
 .fotter__linkadd {
-    color: rgba(22, 54, 94, 0.909);
-    text-decoration-line: teal;
+    color:  rgba(22, 54, 94, 0.909);
 }
 
 .fotter__linkadd:hover {
-    color: rgba(42, 134, 255, 0.568);
+    color: rgba(34, 88, 154, 0.909);
 }
