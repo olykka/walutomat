@@ -1,50 +1,50 @@
-const amountElement = document.querySelector(".js-amount")
-amountElement.focus();
 
-const formElement = document.querySelector(".js-form")
-const currencyElement = document.querySelector(".js-currency")
-const resultElement = document.querySelector(".js-result")
+const calculatesResult = (amount, currency) => {
+        const rateEUR = 4.70;
+        const rateUSD = 4.74;
+        const rateCHF = 4.76;
+        const rateHUF = 1.15;
+        
+        switch (currency) {
+            case "EUR":
+                return amount / rateEUR;
 
+            case "USD":
+                return amount / rateUSD;
 
-document.querySelector(".js-buttonConvert")
-document.querySelector(".js-buttonConvert").click();
+            case "CHF":
+                return amount / rateCHF;
 
+            case "HUF":
+                return amount / rateHUF;
 
-const rateEUR = 4.70;
-const rateUSD = 4.74;
-const rateCHF = 4.76;
-const rateHUF = 1.15;
+        }
+  
 
-formElement.addEventListener("submit", (Event) => {
-    Event.preventDefault();
+    document.querySelector(".js-buttonConvert")
+    document.querySelector(".js-buttonConvert").click();
 
-    const amount = +amountElement.value;
-    const currency = currencyElement.value;
-    let result;
+    formElement.addEventListener("submit", (event) => {
+        event.preventDefault();
 
-    switch (currency) {
-        case "EUR":
-            result = amount / rateEUR;
-            break;
+        const amountElement = document.querySelector(".js-amount")
+        amountElement.focus();
 
-        case "USD":
-            result = amount / rateUSD;
-            break;
+        const formElement = document.querySelector(".js-form");
+        const currencyElement = document.querySelector(".js-currency");
+        const resultElement = document.querySelector(".js-result");
 
-        case "CHF":
-            result = amount / rateCHF;
-            break;
+        const amount = +amountElement.value;
+        const currency = currencyElement.value;
 
-        case "HUF":
-            result = amount / rateHUF;
-            break;
+        const result = calculatesResult(amount, currency);
 
-    }
-    resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency} </strong>`;
+        resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency} </strong>`;
 
+    });
 
-});
+    formElement.addEventListener("reset", (event) => {
+        resultElement.innerHTML = "";
+    });
 
-formElement.addEventListener("reset", (event) => {
-    resultElement.innerHTML = "";
-  });
+}
