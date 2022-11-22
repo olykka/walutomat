@@ -1,5 +1,6 @@
 
 const calculatesResult = (amount, currency) => {
+
         const rateEUR = 4.70;
         const rateUSD = 4.74;
         const rateCHF = 4.76;
@@ -30,7 +31,6 @@ const calculatesResult = (amount, currency) => {
         const amountElement = document.querySelector(".js-amount")
         amountElement.focus();
 
-        const formElement = document.querySelector(".js-form");
         const currencyElement = document.querySelector(".js-currency");
         const resultElement = document.querySelector(".js-result");
 
