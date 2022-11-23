@@ -3,9 +3,9 @@
     background-color: #e6eaefc0;
     margin: 20px 40px;
     font-family: 'Roboto Mono', monospace;
-    border: 2px double rgba(22, 54, 94, 0.909);
-    border-radius: 5px;
+    border: 2px double #16365ee8;
+    border-radius: 8px;
     padding: 20px;
     text-align: center;
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(24, 70, 91, 1);
 }

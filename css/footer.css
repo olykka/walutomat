@@ -1,10 +1,10 @@
 .footer {
     margin: 20px 30px;
-    border: 2px solid rgb(4, 16, 30);
-    border-radius: 5px;
+    border: 2px double #16365ee8;
+    border-radius: 8px;
     background-color: #e6eaef91;
     text-align: center;
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(24, 70, 91, 1);
 }
 
 .fotter__linkadd {

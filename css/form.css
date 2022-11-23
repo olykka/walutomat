@@ -21,7 +21,7 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(24, 70, 91, 1);
 }
 
 .form__buttonConvert:hover {
@@ -42,7 +42,7 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(24, 70, 91, 1);
 }
 
 .form__buttonReset:hover {

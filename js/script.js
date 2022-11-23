@@ -1,3 +1,8 @@
+{const welcome = () => {
+    console.log("Bonjour w kalkulatorze");
+}
+}
+
 
 const calculatesResult = (amount, currency) => {
 
@@ -20,7 +25,7 @@ const calculatesResult = (amount, currency) => {
                 return amount / rateHUF;
 
         }
-  
+        
 
     document.querySelector(".js-buttonConvert")
     document.querySelector(".js-buttonConvert").click();
@@ -46,5 +51,5 @@ const calculatesResult = (amount, currency) => {
     formElement.addEventListener("reset", (event) => {
         resultElement.innerHTML = "";
     });
-
-}
+    
+}}
