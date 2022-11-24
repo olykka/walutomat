@@ -10,7 +10,6 @@ html {
     font-family: 'Roboto Mono', monospace;
     background-image: url("../images/background.jpg");
     background-size: cover;
-    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
