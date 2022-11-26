@@ -33,18 +33,8 @@
     };
 
     const updateResultText = (amount, result, currency) => {
-
        
     }
-
-    document.querySelector(".js-buttonConvert")
-    document.querySelector(".js-buttonConvert").click();
-
-
-
-
-    amountElement.focus();
-
 
     formElement.addEventListener("submit", (event) => {
         event.preventDefault();
